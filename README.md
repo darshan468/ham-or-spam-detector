@@ -2,7 +2,7 @@
 
 import streamlit as st import pandas as pd from sklearn.feature_extraction.text import CountVectorizer from sklearn.model_selection import train_test_split from sklearn.naive_bayes import MultinomialNB from sklearn.metrics import accuracy_score
 
-**Load dataset**
+****Load dataset****
 
 messages = pd.read_csv('spam.csv', sep='\t', names=['LABEL', 'MESSAGES']) messages.columns = ['label', 'message']
 
